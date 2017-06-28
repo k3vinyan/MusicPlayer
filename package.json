@@ -1,0 +1,26 @@
+{
+  "name": "dj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k3vinyan/MusicPlayer.git"
+  },
+  "author": "Kevin Yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k3vinyan/MusicPlayer/issues"
+  },
+  "homepage": "https://github.com/k3vinyan/MusicPlayer#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
