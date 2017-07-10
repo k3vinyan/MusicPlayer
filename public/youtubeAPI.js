@@ -8,14 +8,7 @@ $(function(){
       q: encodeURIComponent($("#search").val()).replace(/%20/g, "+"),
       maxResults: 10,
       order: "viewCount"
-      //publishedAfter: "2015-01-"
     });
-    //resize video according to width
-    function resizeVideo(){
-      var width = $(window).width();
-      var height = width*(16/9);
-    };
-
 
     //excute the request
     request.execute(function(response){
@@ -28,6 +21,7 @@ $(function(){
     })
   });
 });
+
 
 function onJSClientLoad(){
   gapi.client.setApiKey("AIzaSyBvth3Mgsgr1RqWqDdOeZM-Z_tYBTnbCHQ");
