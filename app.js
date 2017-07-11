@@ -1,6 +1,7 @@
-var express = require('express');
-var app     = express();
+var express    = require('express');
+var app        = express();
 var bodyParser = require('body-parser');
+var React      = require('react');
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({'extended': 'true'}));

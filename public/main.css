@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
 }
-div.navbar{
+div.navbar {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 20px 20px 0;
   list-style: none;
@@ -15,13 +15,50 @@ div.navbar{
   display: inline-block;
   padding-right: 0;
 }
-a:link {
+.navbar a:link {
   font-size: 16px;
   text-decoration: none;
   color: rgba(225, 225, 225, 0.9);
   opacity: 1.0;
   padding-left: 20px;
 }
-a:hover {
+.navbar a:hover {
   color: #ffffff;
+}
+.login-form {
+  list-style: none;
+  text-align: center;
+}
+.login-form li {
+  padding-top: 20px;
+  list-style: none;
+}
+input[type=text] {
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 20px;
+}
+input[type=password] {
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.room-link {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.room-link a:link {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.room-link li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+.headphone-image {
+  height: 200px;
+  width: 200px;
 }
